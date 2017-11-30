@@ -65,9 +65,14 @@ header{}
     display: inline-block;
     position: relative;
 }
-.social-media ul li a{}
-.social-media ul li a img{}
-.social-media ul li a img .cursor img{
+.social-media ul li a{
+
+}
+.social-media ul .cursor {
+    position: relative;
+
+}
+.social-media ul .cursor > img{
 
     position: absolute;
     top: 12px;
@@ -176,13 +181,13 @@ header{}
     font-weight: 600;
 }
 
-footer {}
-.ending {
+footer {
+    padding: 20px 0;
+}
 
+.ending {
     width: 1000px;
-    margin: 0 auto;
-    padding: 10px 0;
-    margin-top: 10px;
+    margin: 0 auto;  
 }
 .copyright {
 
